@@ -1,0 +1,73 @@
+Concept 
+Inputs
+
+
+GUI
+- Front page image/options
+- Mass input (kg) - (optional)
+
+Location Input
+- Manual Input (lat/long/alt) - mandatory
+- Location Service (where they are now) - GPS input - optional
+- Street Address - optional
+- Time clock input (now - default) - optional - with provision for.
+
+- Output Options select (optional)
+	- Layer selection (optional)
+	- Units 
+
+Positional Information (mandatory)
+- Coordinate system - WGS-84 
+- Lat / Long
+	- to what resolution
+- Altitude
+	- provide options (ft or m)
+- Time (default =0) - optional
+	- now
+
+Outputs
+- Text? - Basic text - mandatory
+
+Data
+- Gravitational Strength (m/s2) - mandatory
+- "Heat"/Topographic/Contour Map - optional
+- Data Export - optional
+- Magnetic Field - optional
+- Weight - optional
+- Relative Strength (st. dev) - optional
+
+
+GUI Software
+- Web-based
+	-HTML - mandatory - website
+	-C - calculating gravity algorithm 
+	-PHP - mandatory - buttons
+	-Java - mandatory - display
+- Android (optional)
+	-Java
+
+Gravity Calculation
+- Static Database (GOCE) - mandatory
+- Lunar gravity - optional but provision for it
+- Planets & sun - optional
+- 
+
+
+
+Considerations/Assumptions
+Coordinate Systems - probably use WGS-84
+- x,y,z
+- WGS84
+Capacity
+- how many users/traffic (not necessary at this point)
+Database Usage
+- post-processing 
+Processing Requirements
+-
+
+Technical Requirements
+
+
+
+
+
