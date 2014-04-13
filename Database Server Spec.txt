@@ -1,0 +1,34 @@
+Description: 
+The database server is built as a VMware Virtual appliance using Postgresql as a database engine.
+
+Processors: 4
+Memory: 4096Mb
+Storage: 160Gb
+Architecture: x86-64
+OS: Ubuntu 12.04 LTS
+
+Schema:
+Database consists of a single table with the following structure.
+An index is built together on the lat & lon columns to enable queries
+to rapidly be executed on these parameters.
+
++–––––––––––––––––+––––––––––––––––+–––––––––––––––––+––––––––––––––––+
+|                 |                |                 |                |
+|    grav_id      |     lat        |      lon        |      grav      |
+|                 |                |                 |                |
++–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––+
+|                 |                |                 |                |
+| INT PRIMARY KEY |    INTEGER     |    INTEGER      |    FLOAT-64    |
+|                 |                |                 |                |
++–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––+
+|                 |                |                 |                |
+|     14556       |    -36457      |    150458       |    985476500   |
+|                 |                |                 |                |
++–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––+
+|                 |                |                 |                |
+|     14557       |    -36457      |    150460       |    985476500   |
+|                 |                |                 |                |
++–––––––––––––––––+––––––––––––––––+–––––––––––––––––+––––––––––––––––+
+
+Data Import.
+Data is imported into the database usign a Python Script (in source folder)
