@@ -1,0 +1,18 @@
+*************************
+NEED TO CREATE A SSH KEY
+*************************
+
+Login:
+u/s: h.randeni@gmail.com
+p/w: FZzZjQTfcF
+
+
+PostgreSQL cartridge info:
+
+PostgreSQL 9.2 database added.  Please make note of these credentials:
+
+   Root User: admindkkwsb9
+   Root Password: 6XCETVxKR_xC
+   Database Name: jbossews
+
+Connection URL: postgresql://$OPENSHIFT_POSTGRESQL_DB_HOST:$OPENSHIFT_POSTGRESQL_DB_PORT
